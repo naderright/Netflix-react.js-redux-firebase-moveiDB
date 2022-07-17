@@ -1,0 +1,94 @@
+.login {
+    position: relative;
+    height: 100vh;
+    background: url('https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg') center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.login_backDark {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(17, 17, 17, 0.65);
+    background: linear-gradient(to top,rgba(0,0,0,.8) 0 ,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+}
+
+.login_logo {
+    position: fixed;
+    left: 0;
+    padding: 20px;
+    width: 150px;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.login_button {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.login_body{
+    z-index: 1;
+    position: absolute;
+    top: 30%;
+    color: #fff;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    line-height: 2.5rem;
+    letter-spacing: 1.3px;
+}
+.login_body h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+.login_body h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+.login_input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    object-fit: contain;
+    /* background-color: #e50914; */
+}
+.btn-emailAddress{
+    /* background-color: black; */
+    /* flex:1; */
+    padding: 10px;
+    padding-right: 180px;
+    padding-top: 12px;
+    outline: none;
+    /* width: 30%; */
+    border-radius: .2rem;
+    border: none;
+}
+.btnLogin_getStarted{
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: .2rem;
+    background-color: #e50914;
+    color: #fff;
+    padding: 8px ;
+    padding-bottom: 12px;
+    /* width: 10%; */
+    cursor: pointer;
+    text-transform: uppercase;
+}
